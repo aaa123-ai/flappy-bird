@@ -123,14 +123,7 @@ class Bird:
         else:
             pygame.draw.rect(screen, YELLOW, (self.x, self.y, self.size, self.size))
 
-# Pipe class
-# 移除加载管道图片的代码
-# try:
-#     # 加载管道图片
-#     PIPE_IMAGE = pygame.image.load('pipe.png').convert_alpha()
-# except pygame.error as e:
-#     print(f"管道图片加载失败: {e}")
-#     PIPE_IMAGE = None
+
 
 class Pipe:
     def __init__(self):
